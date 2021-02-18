@@ -1,0 +1,25 @@
+.aboutTitle {
+    width: fit-content;
+    font-size: 7em;
+    color: #F5CD54;
+    margin-left: 3.3em;
+    font-family: header;
+}
+.about {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    color: #F5CD54;
+}
+
+.aboutPic {
+    height: 30em;
+    width: 30em;
+    border-radius: 20%;
+}
+
+.textContainer {
+    padding-left: 5em;
+}
+
+

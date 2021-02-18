@@ -1,0 +1,44 @@
+.projects {
+  text-align: center;
+  color: #F5CD54;
+}
+
+.projectTitle {
+    font-family: limo;
+    font-size: 5em;
+}
+
+.projectFiller {
+    font-size: 1.2em;;
+}
+
+.projectCont1 {
+    width: 65em;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.projectPics {
+    height: 18em;
+    width: 18em;
+    border: 2px solid #F5CD54;
+    border-radius: 30%;
+}
+
+.projectCont2 {
+    width: 65em;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.projectBox {
+    text-align: center;
+    color:#F5CD54;
+}
+
+.line {
+    background-color: #F5CD54;
+    width: 50em;
+}

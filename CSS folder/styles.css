@@ -1,0 +1,78 @@
+@font-face {
+    src: url(./assets/fonts/NewYork.otf);
+    font-family: header;
+}
+
+@font-face {
+    src: url(./assets/fonts/Champagne\ &\ Limousines.ttf);
+    font-family: limo;
+}
+
+html {
+    scroll-behavior: smooth;
+    }
+    
+body {
+    background-color: black;
+}
+
+.header {
+    height: 3em;
+    width: 100%;
+    display:  flex;
+    justify-content: center;
+    color: #F5CD54;
+    font-family: header;
+}
+
+.jumbotron {
+    background-image: url(../assets/photos/skyline.jpg);
+     height: 19em;
+     background-color: black;
+     margin: auto;
+     background-image: linear-gradient(rgba(0,0,0));
+     box-shadow: inset 0 10px 15px black;
+}
+
+.photoC{
+    position: relative;
+}
+.profilePhoto {
+    border-radius: 50%;
+    height: 18em;
+    width: 18em;
+    box-shadow:  0 0 20px 17px black;
+}
+
+.centeredNav {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-size: 100px 56px;
+    background-color: #343A40;
+    box-shadow: 0 0 20px 17px black;
+}
+
+.filler {
+    height: 25em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15em;
+}
+
+.fillerText {
+    font-family: limo;
+    font-size: 4em;
+}
+
+footer {
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    font-size: 2em;
+    padding-top: .5em;
+    color: #F5CD54;
+    text-decoration: none;
+}

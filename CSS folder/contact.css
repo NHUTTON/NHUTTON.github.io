@@ -1,0 +1,15 @@
+#contact {
+    width: 100%;
+    background-color: #EBDDC8;
+    height: 31em;
+}
+.container {
+    padding-top: 1em;
+    display: flex;
+}
+.contactInfo {
+    padding-top: 3em;
+    width: 17em;
+    background-color: #EBDDC8;
+    height: 11em;
+}
