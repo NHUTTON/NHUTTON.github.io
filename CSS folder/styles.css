@@ -8,6 +8,31 @@
     font-family: limo;
 }
 
+
+.filler {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	letter-spacing: 1px;
+}
+
+.fillerText{
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
 html {
     scroll-behavior: smooth;
     }
@@ -18,19 +43,38 @@ body {
 
 .header {
     height: 3em;
-    width: 100%;
     display:  flex;
     justify-content: center;
     color: #F5CD54;
     font-family: header;
 }
 
+.nameTop {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 32px;
+    color: #F5CD54;
+    letter-spacing: 3px;
+  }
+  
+  /* Animation */
+  .nameTop {
+    animation: animated-text 1s steps(30,end) 1s 1 normal both;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 163px;}
+  }
+
 .jumbotron {
     background-image: url(../assets/photos/skyline.jpg);
      height: 19em;
      background-color: black;
      margin: auto;
-     background-image: linear-gradient(rgba(0,0,0));
      box-shadow: inset 0 10px 15px black;
 }
 
@@ -45,26 +89,13 @@ body {
 }
 
 .centeredNav {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     width: 100%;
     background-size: 100px 56px;
     background-color: #343A40;
     box-shadow: 0 0 20px 17px black;
-}
-
-.filler {
-    height: 25em;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    color: white;
-    padding-top: 15em;
-}
-
-.fillerText {
-    font-family: limo;
-    font-size: 4em;
+    letter-spacing: 6px;
 }
 
 footer {
